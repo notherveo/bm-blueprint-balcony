@@ -151,7 +151,7 @@ function FloorCard({ floor }: { floor: (typeof floors)[number] }) {
                 {floor.name}
               </p>
               <h3 className="text-lg font-semibold text-gray-900 mt-1">
-                {floor.units} units · {floor.price}
+                {floor.units.length} units · {floor.price}
               </h3>
               <p className="text-sm text-gray-500 mt-1">{floor.status}</p>
             </div>
